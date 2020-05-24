@@ -3,248 +3,296 @@
     "Rolling-Canceled-HUD"
     {
         "en"        "Rolling Canceled"
+        "chi"		"抽取阶段已取消"
     }
 
     "Rolling-Canceled-MSG-LeaderLeft"
     {
         "en"        "{ColorWarning}A team leader has left the game, Rolling has been canceled"
+        "chi"		"{ColorWarning}一个队长已经离开游戏, 抽取阶段已经取消"
     }
 
     "Rolling-Canceled-MSG-PlayerLeft"
     {
         "en"        "{ColorWarning}A rolled player has left the game and there are not enough rolled players, Rolling has been canceled"
+        "chi"		"{ColorWarning}已经被抽中的玩家退出了游戏，玩家人数不够，抽取阶段已经取消"
     }
 
     "Rolling-Ready-HUD"
     {
         "en"        "Get Ready to Roll"
+        "chi"		"准备进入抽取阶段"
     }
 
     "Rolling-Ready-MSG"
     {
         "en"        "{ColorInfo}Pre-Rolling has started, Get ready to join spectators when '{matLGreen}ROLL{ColorInfo}' message appears.\nIf you are in spectator, you can still join a team to roll."
+        "chi"		"{ColorInfo}预抽取开始，准备在 '{matLGreen}ROLL{ColorInfo}' 信息出现的时候加入观察者队伍。\n假如你在观察者队伍，你仍可以加入一个队伍来参加抽取阶段。"
     }
 
     "Rolling-Start-HUD"
     {
         "en"        "ROLL!"
+        "chi"		"ROLL! - 抽取开始!"
     }
 
     "Rolling-Start-MSG"
     {
         "en"        "{ColorInfo}Rolling has started, join spectators NOW!\nLast 2 players who don't join spectators will become the team captains."
+        "chi"		"{ColorInfo}抽取阶段开始了，现在加入观察者！\n最后未加入观察者的2名玩家将成为队长。"
     }
 
     "Rolling-Condition-Success"
     {
         "en"        "{ColorSuccess}You have successfully rolled."
+        "chi"		"{ColorSuccess}你成功被抽取中了。"
     }
 
     "Rolling-Condition-Last2Blocked"
     {
         "en"        "{ColorWarning}Last 2 players cannot join spectators."
+        "chi"		"{ColorWarning}最后的2名玩家不能加入观察者。"
     }
 
     "Rolling-Condition-PickedByOtherTeam"
     {
         "#format"   "{1:s}{2:s}"
         "en"        "{ColorWarning}You cannot join {2}{ColorWarning} team as you are picked by {1}{ColorWarning} team."
+        "chi"		"{ColorWarning}你不能加入 {2}{ColorWarning} 队伍，因为你已经被选进了 {1} 队伍。"
     }
 
     "Rolling-Condition-WaitForPick"
     {
         "en"        "{ColorWarning}You have to wait until you are picked before joining a team."
+        "chi"		"{ColorWarning}你在加入队伍之前必须等待被选中"
     }
 
     "Rolling-Condition-WaitForPick"
     {
         "en"        "{ColorWarning}Please wait until you are picked by a team captain before joining a team."
+        "chi"		"{ColorWarning}加入队伍之前，你必须在被队长选中之前等待。"
     }
 
     "Rolling-Condition-CannotJoinSpec"
     {
         "en"        "{ColorWarning}You cannot join spectators yet."
+        "chi"		"{ColorWarning}你还不可以加入观察者。"
     }
 
     "Rolling-Condition-CaptainDecided"
     {
         "en"        "{ColorWarning}The captains have been decided, you cannot join now."
+        "chi"		"{ColorWarning}队长已经被决定了，你现在不能加入。"
     }
 
     "Roll-Command-ErrorAutoEnabled"
     {
         "en"        "{ColorWarning}Rolling is set to auto enable, you cannot start manually."
+        "chi"		"{ColorWarning}抽取阶段被设为自动开始，你不能手动操作。"
     }
 
     "Roll-Command-ErrorNotEnoughPlayers"
     {
         "en"       "{ColorWarning}At least 2 players needed to start the rolling process."
+        "chi"		"{ColorWarning}至少需要2位玩家来开始抽取阶段。"
     }
 
     "Roll-Command-ErrorAlreadyStarted"
     {
         "en"        "{ColorWarning}Rolling has already started."
+        "chi"		"{ColorWarning}抽取阶段已经开始了"
     }
 
     "Fight-Start-MSG"
     {
         "#format"   "{1:s}{2:s}"
         "en"        "{ColorSuccess}Team captains are\n{blue}BLU: {1}\n{red}RED: {2}"
+        "chi"		"{ColorSuccess}队长是\n蓝队: {1}\n{red}红队: {2}"
     }
 
     "Fight-Winner"
     {
         "en"        "{ColorSuccess}You have won and get to pick first!"
+        "chi"		"{ColorSuccess}你胜利了，可以优先选人！"
     }
 
     "Fight-Loser"
     {
         "en"        "{ColorSuccess}You have lost and get to pick second, better luck next time!"
+        "chi"		"{ColorSuccess}你输掉了，对方可以先选人，下次好运！"
     }
 
     "Pick-Turn"
     {
         "en"        "{ColorSuccess}It's your turn to pick!"
+        "chi"		"{ColorSuccess}轮到你选人了！"
     }
 
     "Pick-Chat-Disabled"
     {
         "en"        "{ColorWarning}This command can only be used during picking process"
+        "chi"		"{ColorWarning}这个指令只可以在抽取阶段使用"
     }
 
     "Pick-Chat-NotUsable"
     {
         "en"        "{ColorWarning}Only current picker can use this command"
+        "chi"		"{ColorWarning}只有当前的选人者可以使用这个指令"
     }
 
     "Pick-Chat-NotFound"
     {
         "#format"   "{1:s}"
         "en"        "{ColorWarning}No player found with the name or number {ColorInfo}{1}\n{ColorWarning}You can use {ColorCommand}!list {ColorWarning}command to show the list of players"
+        "chi"		"{ColorWarning}找不到这个名字和编号的玩家{ColorInfo}{1}\n{ColorWarning}你可以使用 {ColorCommand}!list {ColorWarning}指令来显示玩家列表"
     }
 
     "Pick-Chat-ManyFound"
     {
         "#format"   "{1:s}"
         "en"        "{ColorWarning}Too many players found with the name {ColorInfo}{1}{ColorWarning}. Please be more specific or use player number from the list\n{ColorWarning}You can use {ColorCommand}!list {ColorWarning}command to show the list of players"
+        "chi"		"{ColorWarning}找到太多的玩家名字为 {ColorInfo}{1}{ColorWarning}。请使用更精确的名字或使用列表中的玩家编号\n{ColorWarning}你可以使用 {ColorCommand}!list {ColorWarning}指令来显示玩家列表"
     }
 
     "Pick-Chat-NotRolled"
     {
         "#format"   "{1:s}"
         "en"        "{ColorWarning}The player {ColorInfo}{1}{ColorWarning} has not rolled\n{ColorWarning}You can use {ColorCommand}!list {ColorWarning}command to show the list of players"
+        "chi"		"{ColorWarning}玩家 {ColorInfo}{1}{ColorWarning} 还没有参与抽取阶段\n{ColorWarning}你可以使用 {ColorCommand}!list {ColorWarning}指令来显示玩家列表"
     }
 
     "Pick-Chat-ListEmpty"
     {
         "en"        "{ColorWarning}The player list is empty"
+        "chi"		"{ColorWarning}玩家列表是空的"
     }
 
     "Pick-List-Heading"
     {
         "en"        "{ColorSuccess}Player List"
+        "chi"		"{ColorSuccess}玩家列表"
     }
 
     "Pick-Selected-ToLeader"
     {
         "#format"   "{1:s}"
         "en"        "{ColorSuccess}You picked {1}"
+        "chi"		"{ColorSuccess}你选了 {1}"
     }
 
     "Pick-Selected-ToPlayer"
     {
         "#format"   "{1:s}"
         "en"        "{ColorSuccess}You were picked by {1} {ColorSuccess} team"
+        "chi"		"{ColorSuccess}你被选中了，选你的是 {1} {ColorSuccess} 队伍"
     }
 
     "Pick-Menu-FailedToShow"
     {
         "en"        "{ColorError}Due to internal error the picking menu failed to show up. Please use {ColorCommand}!list {ColorError}and {ColorCommand}!pick or !p <name> {ColorError} commands to view players list and pick players"
+        "chi"		"{ColorError}因为内部错误选人菜单没有出现。请使用 {ColorCommand}!list {ColorError} 和 {ColorCommand}!pick 或 !p <名字> {ColorError} 指令来查看玩家列表来选人"
     }
 
     "Pick-Restart-Moved"
     {
         "en"        "{ColorWarning}Picking was restarted, you were moved to spec"
+        "chi"		"{ColorWarning}选人阶段被重启，你被移动到观察者"
     }
 
     "Pick-Complete"
     {
         "en"        "{ColorSuccess}Picking Complete! Good Luck and Have Fun!"
+        "chi"		"{ColorSuccess}选人完成！武运昌隆！"
     }
 
     "TeamLimit-Full"
     {
         "#format"   "{1:s}"
         "en"        "{1} {ColorWarning} team is currently full!"
+        "chi"		"{1} {ColorWarning} 队伍已经满人了！"
     }
 
     "Module-ChatControl-ColorChatBlocked"
     {
         "en"        "{ColorWarning}Color chat is not allowed!"
+        "chi"		"{ColorWarning}聊天颜色不允许使用！"
     }
 
     "Module-PlayerReadyUp-CommandBlocked"
     {
         "en"        "{ColorWarning}Ready status can be only changed during setup stage"
+        "chi"		"{ColorWarning}准备状态只可以在准备阶段改变"
     }
 
     "Module-PlayerReadyUp-CommandDisabled"
     {
         "en"        "{ColorWarning}Command is currently disabled"
+        "chi"		"{ColorWarning}指令当前禁用"
     }
 
     "Module-PlayerReadyUp-AlreadyReady"
     {
         "en"        "{ColorWarning}Your status is already ready"
+        "chi"		"{ColorWarning}你当前状态已经是准备了"
     }
     
     "Module-PlayerReadyUp-AlreadyUnReady"
     {
         "en"        "{ColorWarning}Your status is already unready"
+        "chi"		"{ColorWarning}你当前状态已经是未准备了"
     }
 
     "Module-PlayerReadyUp-NotPicked"
     {
         "en"        "{ColorWarning}You have not been picked in the match"
+        "chi"		"{ColorWarning}你在比赛中并没有被选中"
     }
 
     "Module-PlayerReadyUp-TeamReady-RED"
     {
         "en"        "{ColorSuccess}Everyone in {matRed}RED {ColorSuccess}team is ready"
+        "chi"		"{ColorSuccess}所有人在 {matRed}红队 {ColorSuccess}中已经准备好了"
     }
 
     "Module-PlayerReadyUp-AllReady"
     {
         "en"        "{ColorSuccess}Everyone in {matBlue}BLU {ColorSuccess}team is ready"
+        "chi"		"{ColorSuccess}所有人在 {matBlue}蓝队 {ColorSuccess}中已经准备好了"
     }
 
     "Module-MarkPlusOne-CommandBlocked"
     {
         "en"        "{ColorWarning}+1 marks cannot be changed now"
+        "chi"		"{ColorWarning}+1标记现在不能改变"
     }
 
     "Module-MarkPlusOne-ListEmpty"
     {
         "en"        "{ColorWarning}There are no players to mark as plus one"
+        "chi"		"{ColorWarning}没有玩家被标记为+1"
     }
 
     "Module-ChangeCaptain-CommandBlocked"
     {
         "en"        "{ColorWarning}Captain can be only changed during fighting stage"
+        "chi"		"{ColorWarning}队长只可以在决斗阶段改变"
     }
 
     "Module-ChangeCaptain-ListEmpty"
     {
         "en"        "{ColorWarning}There are no other players to swap captain with"
+        "chi"		"{ColorWarning}没有玩家可以用来交换队长"
     }
 
     "Module-RequestSwapCaptain-CommandBlocked"
     {
         "en"        "{ColorWarning}Captain can be only changed during fighting stage"
+        "chi"		"{ColorWarning}队长只可以在决斗阶段改变"
     }
 
     "Module-ChangeRollStatus-CommandBlocked"
     {
         "en"        "{ColorWarning}Roll Status cannot be changed now"
+        "chi"		"{ColorWarning}抽取阶段现在不能改变"
     }
 }
